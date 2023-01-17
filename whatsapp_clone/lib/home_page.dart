@@ -7,6 +7,8 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // internet connectivity check
+
     return DefaultTabController(
       length: 4,
       child: Scaffold(
